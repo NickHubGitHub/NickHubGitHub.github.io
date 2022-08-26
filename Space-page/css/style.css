@@ -1,0 +1,102 @@
+.heading{
+    position: relative;
+    text-align:left;
+    color:white;
+    font-size: 50px;
+    border: black;
+}
+
+a,a:visited{
+    color:white;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate (-50%,-50%);
+}
+
+header{
+    background-color: black;
+    height: 250px;
+}
+
+.instructions{
+    align-content: center;
+}
+
+
+.menu{
+    background:rgb(0, 0, 0);
+    
+}
+
+.menu ul{
+    display:inline-flex;
+    list-style:none;
+    color:rgb(117, 114, 114);
+}
+
+.menu ul li{
+    width:85px;
+    margin:10px;
+    padding:15px;
+}
+
+.menu ul li a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.active,.menu ul li:hover{
+    background:rgb(85, 82, 77)
+}
+
+.box{
+    display:flex;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.paragraph{
+    
+    margin-left:85px;
+    margin-top: 0px;
+    border-style:solid;
+    border-radius: 15px;
+    border-color:black;
+    border-width:15px;
+    width: 600px;
+    height:100px;
+    font-size:14px ;
+
+    background-color:black;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.middle{
+    display:inline;
+}
+
+
+
+body{
+    
+    background-color:whitesmoke ;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:normal; 
+}
+
+
+.fact{
+    position:absolute;
+    right:300px;
+    top:600px;
+
+}
+
+
+
+
